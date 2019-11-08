@@ -1,0 +1,21 @@
+<!--pages/navigate_demo/navigate_demo.wxml-->
+<view class="container">
+  <view class="title">
+    <label>Navigation Demo Page</label>  
+  </view>
+  <view class="line_break"></view>
+  
+  <view class="br"></view>
+  <view class="br"></view>
+
+  <view>
+      <label class="label">
+          This page is designed to explain the "navigateTo" function.
+      </label>
+
+      <view class="br"></view>
+      <view class="br"></view>
+      
+      <button class="button">Return Back</button>
+  </view>
+</view>

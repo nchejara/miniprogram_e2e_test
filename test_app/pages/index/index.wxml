@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">
+    <label id="title">{{pageTitle}}</label>  
+  </view>
+  <view class="line_break"></view>
+  
+  <view>
+    <button 
+      id="contact" 
+      class="button pull-left"
+      bindtap="navigateToContactPage">Contact</button>
+  </view>
+</view>

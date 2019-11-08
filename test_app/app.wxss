@@ -1,0 +1,50 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  justify-content: space-between;
+  margin: 5px;
+  box-sizing: border-box;
+} 
+.line_break{
+  border: 1px solid #e2e2e2;
+  margin-bottom: 10px;
+}
+.label {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 1px solid #e2e2e2;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 90%;
+}
+.button {
+  margin-bottom: 10px;
+  width: 30%;
+}
+.br {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.pull-left {
+  float: left;
+  margin-left: 5px;
+}
+.pull-right {
+  float: right;
+  margin-right: 5px;
+}
+.clr { clear: both;}
+.radio-group {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 5px; 
+  width: 90%;
+  border: 1px solid #e2e2e2; 
+}
+.radio {
+  padding: 5px;   
+}

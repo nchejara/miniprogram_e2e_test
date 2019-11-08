@@ -1,0 +1,77 @@
+<!--pages/contact/contact.wxml-->
+<view class="container">
+  <view class="title">
+    <label id="title">Contact Demo Page</label>  
+  </view>
+  <view class="line_break"></view>
+
+  <view>
+    <label class="label">Name</label>  
+    <input 
+        id="name" 
+        placeholder="Enter your name"
+        class="input"
+        value="{{name}}"
+        focus="true"
+        bindinput="onUpdateName">
+    </input>
+  </view>
+  
+  
+  <view>
+    <label class="label">Phone</label>  
+    <input 
+        id="phone" 
+        type="number"
+        placeholder="Enter phone number"
+        class="input"
+        value="{{phone}}"
+        bindinput="onUpdatePhone">
+    </input>
+  </view>
+  
+  <radio-group class="radio-group" bindchange="radioChange">
+    <radio 
+      class="radio" 
+      wx:for-items="{{phoneTypes}}" 
+      wx:key="key" 
+      value="{{item.key}}" 
+      checked="{{item.checked}}">
+        <text>{{item.type}}</text>
+    </radio>
+  </radio-group>
+
+
+  <view wx:if="{{msg}}" class=".result">
+    {{msg}}  
+  </view>
+
+  <view>
+    <button 
+      id="add" 
+      class="button pull-left"
+      bindtap="tapOnAdd">Add
+    </button>
+  </view>
+  
+  <view>
+    <button 
+      id="clear" 
+      class="button pull-left"
+      bindtap="tapOnClear">Clear</button>
+  </view>
+  <view class='clr' />
+  <view wx:if="{{showResult}}">
+      <view>
+        <text>Name: {{name}}</text>
+      </view>
+      <view>
+        <text>Phone: {{phone}}</text>
+      </view>
+      <view wx:for-items="{{phoneTypes}}" 
+      wx:key="key">
+        <text wx:if="{{item.checked}}">Type: {{item.type}}</text>
+      </view>
+  </view>
+</view>
+

@@ -1,0 +1,15 @@
+{
+  "name": "miniprogram_e2e_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node e2e/__tests__/contact-spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "miniprogram-automator": "0.8.0"
+  }
+}
