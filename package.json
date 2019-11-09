@@ -6,9 +6,21 @@
   "scripts": {
     "test": "node e2e/__tests__/contact-spec.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "miniprogram e2e testing",
+    "miniprogram e2e",
+    "wechat miniprogram e2e testing"
+  ],
+  "author": "Naren Chejara <n.chejara@yahoo.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchejara/miniprogram_e2e_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nchejara/miniprogram_e2e_test.git/issues"
+  },
+  "homepage": "https://github.com/nchejara/miniprogram_e2e_test.git#readme",
   "dependencies": {
     "miniprogram-automator": "0.8.0"
   }
